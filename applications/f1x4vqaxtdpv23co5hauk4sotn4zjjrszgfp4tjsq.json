@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1x4vqaxtdpv23co5hauk4sotn4zjjrszgfp4tjsq",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "test data owmer name",
+    "Region": "Singapore",
+    "Industry": "Web3 / Crypto",
+    "Website": "https://originstorage.io/",
+    "Social Media": "OriginStorage_",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "testprojectid",
+    "Brief history of your project and organization": "test project description",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "open source data test project description",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "test If you are a data preparer, how will the data be prepared? Please include tooling used and technical details?",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "ttest link",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "test1,singapore,test2,singapore,test3,singapore,test4,singapore,test5,singapore",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1TiB",
+    "Single Size Dataset": "1TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "1TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-03-26 09:11:34.681134173 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1x4vqaxtdpv23co5hauk4sotn4zjjrszgfp4tjsq",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
