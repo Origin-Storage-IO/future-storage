@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f12gxhrxlqcbljlmllfj3du5hyz6a6nc3fekt54hy",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "Digital Earth Africa",
+    "Region": "South Africa",
+    "Industry": "Environment",
+    "Website": "https://www.digitalearthafrica.org/",
+    "Social Media": "https://www.youtube.com/watch?v=FVmcEaemfmA",
+    "Social Media Type": "Slack",
+    "Role": "Other"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "DE Africa will provide a routine, reliable and operational service, using Earth observations to deliver decision-ready products enabling policy makers, scientists, the private sector and civil society to address social, environmental and economic changes on the continent and develop an ecosystem for innovation across sectors.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "https://registry.opendata.aws/deafrica-mangrove/\r\nhttps://registry.opendata.aws/deafrica-landsat/\r\nhttps://registry.opendata.aws/deafrica-chirps/\r\nhttps://registry.opendata.aws/deafrica-wofs/\r\nhttps://registry.opendata.aws/deafrica-geomad/\r\nhttps://registry.opendata.aws/deafrica-coastlines/\r\nhttps://registry.opendata.aws/deafrica-sentinel-1/\r\nhttps://registry.opendata.aws/deafrica-alos-jers/\r\nhttps://registry.opendata.aws/deafrica-crop-extent/\r\nhttps://registry.opendata.aws/deafrica-fractional-cover/",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --region af-south-1 --no-sign-request s3://deafrica-input-datasets/gmw/\r\nTotal Objects: 14\r\n   Total Size: 3.1 GiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-landsat/\r\nTotal Objects: 32932921\r\n   Total Size: 717.6 TiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-input-datasets/rainfall_chirps_daily/\r\nTotal Objects: 31166\r\n   Total Size: 15.6 GiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-services/coastlines/\r\nTotal Objects: 29\r\n   Total Size: 4.7 GiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-services/gm_s2_annual/\r\nTotal Objects: 422837\r\n   Total Size: 58.6 TiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-services/wofs_ls/\r\nTotal Objects: 7040142\r\n   Total Size: 3.4 TiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-sentinel-1/\r\nTotal Objects: 11313854\r\n   Total Size: 254.6 TiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-input-datasets/alos_palsar_mosaic/\r\nTotal Objects: 12648\r\n   Total Size: 3.7 TiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-services/crop_mask/\r\nTotal Objects: 19284\r\n   Total Size: 195.0 GiB\r\naws s3 ls --region af-south-1 --no-sign-request s3://deafrica-services/fc_ls/\r\nTotal Objects: 14457313\r\n   Total Size: 87.5 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f02813403 UK\r\n2.f02814393 US\r\n3.f02830321 VN\r\n4.f02837226 UK\r\n5.f02864300 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6000TiB",
+    "Single Size Dataset": "1118.3TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-12 02:51:36.897705370 UTC",
+    "Validated By": "Tom-OriginStorage",
+    "Active": true,
+    "Updated At": "2024-04-12 02:52:10.235104243 UTC",
+    "Active Request ID": "3deaf195-db3a-456d-b2b5-39014eb2d5ae",
+    "On Chain Address": "f12gxhrxlqcbljlmllfj3du5hyz6a6nc3fekt54hy",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "3deaf195-db3a-456d-b2b5-39014eb2d5ae",
+      "Request Type": "First",
+      "Created At": "2024-04-12 02:51:36.897710134 UTC",
+      "Updated At": "2024-04-12 02:51:36.897710854 UTC",
+      "Active": false,
+      "Allocation Amount": "1PiB",
+      "Signers": [
+        {
+          "Github Username": "Tom-OriginStorage",
+          "Signing Address": "f1q6bpjlqia6iemqbrdaxr2uehrhpvoju3qh4lpga",
+          "Created At": "2024-04-12 02:52:08.035000000 UTC",
+          "Message CID": "bafy2bzacebux7tatuppxyptacnv4qnzigbo2kynqvpsbh2uiprszbk7bysica"
+        }
+      ]
+    }
+  ]
+}
