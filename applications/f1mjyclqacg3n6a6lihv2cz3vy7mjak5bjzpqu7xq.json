@@ -36,11 +36,11 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-12 02:49:14.203970895 UTC",
     "Validated By": "Tom-OriginStorage",
     "Active": true,
-    "Updated At": "2024-04-12 02:49:14.203974097 UTC",
+    "Updated At": "2024-04-12 02:50:28.354545070 UTC",
     "Active Request ID": "2297e723-ad9d-45eb-b094-b7878fcacdc2",
     "On Chain Address": "f1mjyclqacg3n6a6lihv2cz3vy7mjak5bjzpqu7xq",
     "Multisig Address": "false"
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-04-12 02:49:14.203975573 UTC",
       "Updated At": "2024-04-12 02:49:14.203976539 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1PiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Tom-OriginStorage",
+          "Signing Address": "f1q6bpjlqia6iemqbrdaxr2uehrhpvoju3qh4lpga",
+          "Created At": "2024-04-12 02:50:26.080000000 UTC",
+          "Message CID": "bafy2bzacec7aoh7rnthzdxagl5fuh64pfbdo6pjcj4y6uofkuxggrcqwc3nse"
+        }
+      ]
     }
   ]
 }
