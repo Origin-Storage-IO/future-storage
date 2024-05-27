@@ -36,12 +36,12 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-04-12 02:51:36.897705370 UTC",
     "Validated By": "Tom-OriginStorage",
     "Active": true,
-    "Updated At": "2024-04-15 04:10:27.990043512 UTC",
-    "Active Request ID": "1448895b-edc8-4f82-a4d3-193b29218e5f",
+    "Updated At": "2024-04-15 05:00:05.417635563 UTC",
+    "Active Request ID": "9e546bd5-d625-4ef5-9d20-5c54d15e7792",
     "On Chain Address": "f12gxhrxlqcbljlmllfj3du5hyz6a6nc3fekt54hy",
     "Multisig Address": "false",
     "edited": null
@@ -94,6 +94,15 @@
           "Message CID": "bafy2bzacebc34rotuwqjehrt3u6vgrgcdpbt7layatebcevsqfxkugr2gywzu"
         }
       ]
+    },
+    {
+      "ID": "9e546bd5-d625-4ef5-9d20-5c54d15e7792",
+      "Request Type": "Refill",
+      "Created At": "2024-04-15 05:00:05.417647158 UTC",
+      "Updated At": "2024-04-15 05:00:05.417648534 UTC",
+      "Active": true,
+      "Allocation Amount": "2PiB",
+      "Signers": []
     }
   ]
 }
