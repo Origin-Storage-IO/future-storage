@@ -14,7 +14,7 @@ body:
       value: |
         ## Company Information
   - type: input
-    id: 
+    id: bizname
     attributes: 
       label: Company / Individual name
       description: What is your name?
@@ -22,31 +22,31 @@ body:
     validations:
       required: true
   - type: input
-    id:  
+    id: bizreg
     attributes:
       label: Business Registration Number (if applicable)
       description: Company registered number
-      placeholder:  
+      placeholder: 202189734647X
     validations:
       required: false
   - type: input
-    id: 
+    id: priname
     attributes:
       label: Primary Contact Name
       description: Contact name of primary person incharge.
-      placeholder: 
+      placeholder: Wang Guo Dong
     validations:
       required: true
   - type: input
-    id: 
+    id: priemail
     attributes:
       label: Contact Email
       description: Contact email of primary person incharge
-      placeholder: 
+      placeholder: abc@gmail.com
     validations:
       required: true
   - type: dropdown
-    id:
+    id: emailveri
     attributes:
       label: Verification Email Sent
       description: Have you sent your verification email to support@originstorage.io?
@@ -57,11 +57,11 @@ body:
     validations:
       required: true
   - type: input
-    id: 
+    id: cosite
     attributes:
       label: Company Website (if available)
       description: web address of the company website.
-      placeholder: 
+      placeholder: abc.com
     validations:
       required: true
   - type: markdown
@@ -69,23 +69,23 @@ body:
       value: |
         ## General Business Overview
   - type: textarea
-    id: 
+    id: biznature
     attributes:
       label: Nature of Business
       description: Please briefly describe the nature of your business
-      placeholder: 
+      placeholder: movie streaming
     validations:
       required: true
   - type: textarea
-    id: 
+    id: pdt
     attributes:
       label: What are your core products or services?
       description: List down the core products and services that are involved with this application
-      placeholder: 
+      placeholder: we store movies and stream them on online platforms.
     validations:
       required: true
   - type: dropdown
-    id:
+    id: tenure
     attributes:
       label: How long has your business been operational? (years)
       description: How long is the business running for ? In terms of years.
@@ -101,7 +101,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id:
+    id: countries
     attributes:
         label: In which countries do you operate?
         multiple: true
@@ -302,7 +302,7 @@ body:
           - Zambia
           - Zimbabwe
   - type: dropdown
-    id: 
+    id: exp
     attributes:
       label: Have you used data storage services before?
       description: (Y/N)
@@ -313,7 +313,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: 
+    id: expdescribe
     attributes:
       label: Describe Your Previous Data Storage Experience (if you answered yes above)
       description: Also tell us, what was your previous data storage experience
@@ -326,7 +326,7 @@ body:
       value: |
         ## Data Storage Needs
   - type: input
-    id:
+    id: space
     attributes:
       label: Estimate the volume of data you need to store (e.g., in terabytes)
       description: The space requirement in TB
@@ -334,7 +334,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id:
+    id: datanature
     attributes:
       label: Describe the nature of data
       description: Describe the nature of the data (e.g., general business data, sensitive personal data, regulated data)
@@ -343,7 +343,7 @@ body:
     validations:
       required: true
   - type: input
-    id:
+    id: datareq
     attributes:
       label: Are there any specific compliance or regulatory requirements for your data? (e.g., GDPR, HIPAA)
       description: Comma seperate the require regulatory requirements for your data
@@ -355,7 +355,7 @@ body:
       value: |
         ## Service Requirements
   - type: input
-    id:
+    id: datastoragesvc
     attributes:
       label: What specific data storage services are you looking for? (e.g., cloud storage, dedicated servers, backup solutions)
       description: List down the comma seperated values of the type of storage service you're looking for.
@@ -363,16 +363,16 @@ body:
     validations:
       required: true
   - type: textarea
-    id:
+    id: techsvcreq
     attributes:
       label: Do you have any specific technical requirements or preferences? (e.g., encryption, access controls)
       description: Describe to us any specific technical requirements and preferences.
-      placeholder:
+      placeholder: We need role based access control limits
       value:
     validations:
       required: true
   - type: input
-    id:
+    id: resptime
     attributes:
       label: What is your expected response time for support and maintenance requests? (In terms of hours)
       description: What is your expected support response time in terms of hours.
@@ -384,7 +384,7 @@ body:
       value: |
         ## Security and Privacy
   - type: textarea
-    id:
+    id: datasec
     attributes:
       label: What are your primary concerns regarding data security and privacy?
       description: Are there any concerns with regards to data privacy and security? If there isn't enter "N.A"
@@ -393,7 +393,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id:
+    id: datapol
     attributes:
       label: Do you have any existing data security policies or protocols in place?
       description: Existing data policies (Y/N)
