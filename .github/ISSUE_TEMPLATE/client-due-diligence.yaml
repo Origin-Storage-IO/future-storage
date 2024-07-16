@@ -18,7 +18,7 @@ body:
     attributes: 
       label: Company / Individual name
       description: What is your name?
-      placeholder: ABC Ltd
+      placeholder: "ABC Ltd"
     validations:
       required: true
   - type: input
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Business Registration Number (if applicable)
       description: Company registered number
-      placeholder: 202189734647X
+      placeholder: "202189734647X"
     validations:
       required: false
   - type: input
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Primary Contact Name
       description: Contact name of primary person incharge.
-      placeholder: Wang Guo Dong
+      placeholder: "Wang Guo Dong"
     validations:
       required: true
   - type: input
@@ -42,7 +42,7 @@ body:
     attributes:
       label: Contact Email
       description: Contact email of primary person incharge
-      placeholder: abc@gmail.com
+      placeholder: "abc@gmail.com"
     validations:
       required: true
   - type: dropdown
@@ -61,7 +61,7 @@ body:
     attributes:
       label: Company Website (if available)
       description: web address of the company website.
-      placeholder: abc.com
+      placeholder: "abc.com"
     validations:
       required: true
   - type: markdown
@@ -73,7 +73,7 @@ body:
     attributes:
       label: Nature of Business
       description: Please briefly describe the nature of your business
-      placeholder: movie streaming
+      placeholder: "movie streaming"
     validations:
       required: true
   - type: textarea
@@ -81,7 +81,7 @@ body:
     attributes:
       label: What are your core products or services?
       description: List down the core products and services that are involved with this application
-      placeholder: we store movies and stream them on online platforms.
+      placeholder: "We store movies and stream them on online platforms."
     validations:
       required: true
   - type: dropdown
@@ -317,7 +317,7 @@ body:
     attributes:
       label: Describe Your Previous Data Storage Experience (if you answered yes above)
       description: Also tell us, what was your previous data storage experience
-      placeholder:
+      placeholder: "We previous stored data with ..."
       value:
     validations:
       required: false
@@ -330,7 +330,7 @@ body:
     attributes:
       label: Estimate the volume of data you need to store (e.g., in terabytes)
       description: The space requirement in TB
-      placeholder: 100
+      placeholder: "100"
     validations:
       required: false
   - type: textarea
@@ -338,7 +338,7 @@ body:
     attributes:
       label: Describe the nature of data
       description: Describe the nature of the data (e.g., general business data, sensitive personal data, regulated data)
-      placeholder: describe the type of of contents the data can be categorised under.
+      placeholder: "Describe the type of of contents the data can be categorised under."
       value: 
     validations:
       required: true
@@ -347,7 +347,7 @@ body:
     attributes:
       label: Are there any specific compliance or regulatory requirements for your data? (e.g., GDPR, HIPAA)
       description: Comma seperate the require regulatory requirements for your data
-      placeholder: GDPR,HIPAA
+      placeholder: "GDPR,HIPAA"
     validations:
       required: false
   - type: markdown
@@ -359,7 +359,7 @@ body:
     attributes:
       label: What specific data storage services are you looking for? (e.g., cloud storage, dedicated servers, backup solutions)
       description: List down the comma seperated values of the type of storage service you're looking for.
-      placeholder: ex. cloud storage,backup storage
+      placeholder: "ex. cloud storage,backup storage"
     validations:
       required: true
   - type: textarea
@@ -367,7 +367,7 @@ body:
     attributes:
       label: Do you have any specific technical requirements or preferences? (e.g., encryption, access controls)
       description: Describe to us any specific technical requirements and preferences.
-      placeholder: We need role based access control limits
+      placeholder: "We need role based access control limits"
       value:
     validations:
       required: true
@@ -376,7 +376,7 @@ body:
     attributes:
       label: What is your expected response time for support and maintenance requests? (In terms of hours)
       description: What is your expected support response time in terms of hours.
-      placeholder: ex. 0.5
+      placeholder: "ex. 0.5"
     validations:
       required: true
   - type: markdown
@@ -388,7 +388,7 @@ body:
     attributes:
       label: What are your primary concerns regarding data security and privacy?
       description: Are there any concerns with regards to data privacy and security? If there isn't enter "N.A"
-      placeholder: ex. "I am concern about ..."
+      placeholder: "ex. I am concern about ..."
       value:
     validations:
       required: true
@@ -408,7 +408,7 @@ body:
       value: |
         ## Additional Information
   - type: textarea
-    id: Additional Information
+    id: addinfo
     attributes:
       label: Additional Information
       description: Let us know any additional information you'd like us to know.
