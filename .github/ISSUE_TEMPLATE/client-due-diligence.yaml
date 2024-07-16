@@ -1,0 +1,418 @@
+name: Future Storage Client Due Diligence Form
+description: Future Storage Client Due Diligence
+title: "[Future Storage Client Due Diligence Form]: <Project Name>"
+labels: ["DataCap", "Client"]
+assignees:
+  - Tom-OriginStorage
+body:
+  - type: markdown
+    attributes:
+      value: 
+        Thank you for taking the time to fill out this form!
+  - type: markdown
+    attributes:
+      value: |
+        ## Company Information
+  - type: input
+    id: 
+    attributes: 
+      label: Company / Individual name
+      description: What is your name?
+      placeholder: ABC Ltd
+    validations:
+      required: true
+  - type: input
+    id:  
+    attributes:
+      label: Business Registration Number (if applicable)
+      description: Company registered number
+      placeholder:  
+    validations:
+      required: false
+  - type: input
+    id: 
+    attributes:
+      label: Primary Contact Name
+      description: Contact name of primary person incharge.
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: Contact Email
+      description: Contact email of primary person incharge
+      placeholder: 
+    validations:
+      required: true
+  - type: dropdown
+    id:
+    attributes:
+      label: Verification Email Sent
+      description: Have you sent your verification email to support@originstorage.io?
+      options:
+        - Yes (Default)
+        - No
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: 
+    attributes:
+      label: Company Website (if available)
+      description: web address of the company website.
+      placeholder: 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## General Business Overview
+  - type: textarea
+    id: 
+    attributes:
+      label: Nature of Business
+      description: Please briefly describe the nature of your business
+      placeholder: 
+    validations:
+      required: true
+  - type: textarea
+    id: 
+    attributes:
+      label: What are your core products or services?
+      description: List down the core products and services that are involved with this application
+      placeholder: 
+    validations:
+      required: true
+  - type: dropdown
+    id:
+    attributes:
+      label: How long has your business been operational? (years)
+      description: How long is the business running for ? In terms of years.
+      options:
+        - less than 1 year
+        - 1 year
+        - 2 year
+        - 3 year
+        - 4 year
+        - 5 year
+        - more than 5 year
+      default: 0
+    validations:
+      required: true
+- type: dropdown
+  id: countries
+  attributes:
+    label: In which countries do you operate?
+    multiple: true
+    options:
+      - Afghanistan
+      - Albania
+      - Algeria
+      - Andorra
+      - Angola
+      - Antigua and Barbuda
+      - Argentina
+      - Armenia
+      - Australia
+      - Austria
+      - Azerbaijan
+      - Bahamas
+      - Bahrain
+      - Bangladesh
+      - Barbados
+      - Belarus
+      - Belgium
+      - Belize
+      - Benin
+      - Bhutan
+      - Bolivia
+      - Bosnia and Herzegovina
+      - Botswana
+      - Brazil
+      - Brunei
+      - Bulgaria
+      - Burkina Faso
+      - Burundi
+      - Cabo Verde
+      - Cambodia
+      - Cameroon
+      - Canada
+      - Central African Republic
+      - Chad
+      - Chile
+      - China
+      - Colombia
+      - Comoros
+      - Congo, Democratic Republic of the
+      - Congo, Republic of the
+      - Costa Rica
+      - Croatia
+      - Cuba
+      - Cyprus
+      - Czech Republic
+      - Denmark
+      - Djibouti
+      - Dominica
+      - Dominican Republic
+      - East Timor (Timor-Leste)
+      - Ecuador
+      - Egypt
+      - El Salvador
+      - Equatorial Guinea
+      - Eritrea
+      - Estonia
+      - Eswatini
+      - Ethiopia
+      - Fiji
+      - Finland
+      - France
+      - Gabon
+      - Gambia
+      - Georgia
+      - Germany
+      - Ghana
+      - Greece
+      - Grenada
+      - Guatemala
+      - Guinea
+      - Guinea-Bissau
+      - Guyana
+      - Haiti
+      - Honduras
+      - Hungary
+      - Iceland
+      - India
+      - Indonesia
+      - Iran
+      - Iraq
+      - Ireland
+      - Israel
+      - Italy
+      - Jamaica
+      - Japan
+      - Jordan
+      - Kazakhstan
+      - Kenya
+      - Kiribati
+      - Korea, North
+      - Korea, South
+      - Kosovo
+      - Kuwait
+      - Kyrgyzstan
+      - Laos
+      - Latvia
+      - Lebanon
+      - Lesotho
+      - Liberia
+      - Libya
+      - Liechtenstein
+      - Lithuania
+      - Luxembourg
+      - Madagascar
+      - Malawi
+      - Malaysia
+      - Maldives
+      - Mali
+      - Malta
+      - Marshall Islands
+      - Mauritania
+      - Mauritius
+      - Mexico
+      - Micronesia, Federated States of
+      - Moldova
+      - Monaco
+      - Mongolia
+      - Montenegro
+      - Morocco
+      - Mozambique
+      - Myanmar (Burma)
+      - Namibia
+      - Nauru
+      - Nepal
+      - Netherlands
+      - New Zealand
+      - Nicaragua
+      - Niger
+      - Nigeria
+      - North Macedonia
+      - Norway
+      - Oman
+      - Pakistan
+      - Palau
+      - Panama
+      - Papua New Guinea
+      - Paraguay
+      - Peru
+      - Philippines
+      - Poland
+      - Portugal
+      - Qatar
+      - Romania
+      - Russia
+      - Rwanda
+      - Saint Kitts and Nevis
+      - Saint Lucia
+      - Saint Vincent and the Grenadines
+      - Samoa
+      - San Marino
+      - Sao Tome and Principe
+      - Saudi Arabia
+      - Senegal
+      - Serbia
+      - Seychelles
+      - Sierra Leone
+      - Singapore
+      - Slovakia
+      - Slovenia
+      - Solomon Islands
+      - Somalia
+      - South Africa
+      - South Sudan
+      - Spain
+      - Sri Lanka
+      - Sudan
+      - Suriname
+      - Sweden
+      - Switzerland
+      - Syria
+      - Taiwan
+      - Tajikistan
+      - Tanzania
+      - Thailand
+      - Togo
+      - Tonga
+      - Trinidad and Tobago
+      - Tunisia
+      - Turkey
+      - Turkmenistan
+      - Tuvalu
+      - Uganda
+      - Ukraine
+      - United Arab Emirates
+      - United Kingdom
+      - United States
+      - Uruguay
+      - Uzbekistan
+      - Vanuatu
+      - Vatican City
+      - Venezuela
+      - Vietnam
+      - Yemen
+      - Zambia
+      - Zimbabwe
+  - type: dropdown
+    id: 
+    attributes:
+      label: Have you used data storage services before?
+      description: (Y/N)
+      options:
+        - Yes (Default)
+        - No
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: 
+    attributes:
+      label: Describe Your Previous Data Storage Experience (if you answered yes above)
+      description: Also tell us, what was your previous data storage experience
+      placeholder:
+      value:
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Data Storage Needs
+  - type: input
+    id:
+    attributes:
+      label: Estimate the volume of data you need to store (e.g., in terabytes)
+      description: The space requirement in TB
+      placeholder: 100
+    validations:
+      required: false
+  - type: textarea
+    id:
+    attributes:
+      label: Describe the nature of data
+      description: Describe the nature of the data (e.g., general business data, sensitive personal data, regulated data)
+      placeholder: describe the type of of contents the data can be categorised under.
+      value: 
+    validations:
+      required: true
+ - type: input
+   id:
+   attributes:
+     label: Are there any specific compliance or regulatory requirements for your data? (e.g., GDPR, HIPAA)
+     description: Comma seperate the require regulatory requirements for your data
+     placeholder: GDPR,HIPAA
+   validations:
+     required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Service Requirements
+  - type: input
+    id:
+    attributes:
+      label: What specific data storage services are you looking for? (e.g., cloud storage, dedicated servers, backup solutions)
+      description: List down the comma seperated values of the type of storage service you're looking for.
+      placeholder: ex. cloud storage,backup storage
+    validations:
+      required: true
+  - type: textarea
+    id:
+    attributes:
+      label: Do you have any specific technical requirements or preferences? (e.g., encryption, access controls)
+      description: Describe to us any specific technical requirements and preferences.
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: input
+    id:
+    attributes:
+      label: What is your expected response time for support and maintenance requests? (In terms of hours)
+      description: What is your expected support response time in terms of hours.
+      placeholder: ex. 0.5
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Security and Privacy
+  - type: textarea
+    id:
+    attributes:
+      label: What are your primary concerns regarding data security and privacy?
+      description: Are there any concerns with regards to data privacy and security? If there isn't enter "N.A"
+      placeholder: ex. "I am concern about ..."
+      value:
+    validations:
+      required: true
+  - type: dropdown
+    id:
+    attributes:
+      label: Do you have any existing data security policies or protocols in place?
+      description: Existing data policies (Y/N)
+      options:
+        - Yes (Default)
+        - No
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Information
+  - type: textarea
+    id: Additional Information
+    attributes:
+      label: Additional Information
+      description: Let us know any additional information you'd like us to know.
+      placeholder: "I also need..."
+      value:
+    validations:
+      required: false
