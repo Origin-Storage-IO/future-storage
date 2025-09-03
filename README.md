@@ -6,8 +6,8 @@ Welcome to the GitHub repository for the Future Storage DataCap Allocator managi
 
 - **Allocator Pathway Name**: Future Storage
 - **Pathway Type**: Public Open Pathway
-- **Organization On-Chain Address**: Available for DataCap allocations
-- **On-chain Address for DC Allocation**: Managed through multisig governance
+- **Organization On-Chain Address**: f2mkq7zjmtoinrjsk7em4i2gnq5vgw723vhhduvvy
+- **On-chain Address for DC Allocation**: f2mkq7zjmtoinrjsk7em4i2gnq5vgw723vhhduvvy
 
 ## Overview
 
