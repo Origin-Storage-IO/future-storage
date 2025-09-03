@@ -16,7 +16,7 @@ This allocator focuses on enabling large-scale data storage on the Filecoin netw
 ## Allocation Structure
 
 ### DataCap Allocation Limits
-- **Weekly Allocation**: Typically ranges from 1 TiB to 1000 TiB
+- **Weekly Allocation**: Typically ranges from 100 TiB to 2 PiB
 - **Total Requested Amount**: Based on dataset size and replication needs
 - **Single Size Dataset**: Defined per application requirements
 - **Allocation Tranches**: Distributed in scheduled tranches to ensure responsible usage
