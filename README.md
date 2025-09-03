@@ -1,36 +1,76 @@
 # Future Storage - Filecoin Plus DataCap Allocator - Client Applications
 
-Welcome to the GitHub repository designed for managing Lifecycle Data Notations (LDN) Applications for a dedicated Filecoin Plus DataCap allocator team. This repository functions as a transparent public ledger for tracking DataCap allocation requests, promoting both transparency and efficiency.
+Welcome to the GitHub repository for the Future Storage DataCap Allocator managing Large Dataset Notary (LDN) Applications under the Filecoin Plus program. This repository serves as a transparent public ledger for tracking DataCap allocation requests.
+
+## Allocator Information
+
+- **Allocator Pathway Name**: Future Storage
+- **Pathway Type**: Public Open Pathway
+- **Organization On-Chain Address**: Available for DataCap allocations
+- **On-chain Address for DC Allocation**: Managed through multisig governance
 
 ## Overview
 
-Filecoin Plus (Fil+) extends the capabilities of Filecoin by not only storing data but also verifying its utility. DataCap is distributed to clients based on their storage requirements and the value their data adds to the Filecoin network. Our team, operating via a shared multisig wallet, serves as the DataCap allocator, assessing and validating client requests.
+This allocator focuses on enabling large-scale data storage on the Filecoin network through the Filecoin Plus program. We manage DataCap allocations for clients storing valuable datasets that enhance the Filecoin ecosystem's utility and adoption.
 
-## How It Works
+## Allocation Structure
 
-Instead of serving as a traditional code repository, this GitHub repo acts as an organized ledger to handle DataCap requests through Client Applications. Every step of each application, from request to allocation, is documented publicly here.
+### DataCap Allocation Limits
+- **Weekly Allocation**: Typically ranges from 1 TiB to 1000 TiB
+- **Total Requested Amount**: Based on dataset size and replication needs
+- **Single Size Dataset**: Defined per application requirements
+- **Allocation Tranches**: Distributed in scheduled tranches to ensure responsible usage
 
-### Requesting DataCap
+### Replicas and Storage Providers
+- **Minimum Replicas**: 4-10 replicas required for data redundancy
+- **Storage Provider Requirements**: 
+  - Minimum of 5 unique Storage Provider IDs required
+  - No single SP should receive >30% of allocated DataCap
+  - Geographic distribution across multiple regions encouraged
+  - Supported regions include Greater China, Asia, Africa, North America, South America, Europe, and Australia
 
-1. **Open an Issue:** Clients seeking DataCap must create a new issue in this repository. The issue should contain comprehensive details about the project needing DataCap. Essential information includes, but is not limited to:
-   - Project name and description
-   - Amount of DataCap requested
-   - Justification for the requested DataCap
-   - Data owner information for KYC purposes
+## Data Diligence
 
-2. **Complete the Application Template:** An issue template will guide clients in submitting the necessary information for their DataCap request.
+Our data diligence process ensures that stored datasets provide value to the Filecoin network:
 
-### Review and Allocation Process
+- **Public Dataset Verification**: All datasets must be publicly retrievable without specific permissions
+- **Data Types Supported**: Including but not limited to research data, open commercial data, enterprise data, and social impact datasets
+- **Storage Duration**: Projects commit to storing data from 1 year to permanently
+- **Retrieval Patterns**: Supporting various retrieval frequencies from daily to sporadic access
+- **Data Distribution Methods**: Supporting cloud storage (S3), HTTP/FTP servers, IPFS, and direct data transfer protocols
 
-1. **Initial Review:** Upon issue creation, our allocator team will perform an initial review to verify that all required information is included.
-2. **Discussion & Clarification:** The team may engage in discussions within the issue thread to request clarifications or additional details.
-3. **Decision:** The allocator team will decide on the DataCap request. If approved, the request moves to the allocation phase.
+## Client Diligence
 
-### Managing the Client Application Lifecycle
+Client verification ensures responsible DataCap allocation:
 
-- Each Client Application's lifecycle is documented through a `.json` file in this repository, uniquely linked to the client's issue.
-- The `.json` file is created when an application is first approved for allocation and is updated through pull requests as more DataCap is allocated or as the application's status changes.
-- This systematic approach ensures transparency and traceability for both clients and the allocator team.
+- **Organization Verification**: Including industry classification, regional presence, and business legitimacy
+- **Project Assessment**: Evaluating project history, ecosystem associations, and data preparation capabilities
+- **Technical Capability**: Confirming ability to prepare datasets using tools like Boost and Singularity
+- **Compliance Commitment**: Ensuring adherence to Fil+ guidelines and allocation rules
+
+## Additional Metrics and KPIs
+
+We track and report the following metrics to measure pathway success:
+
+- **Allocation Efficiency**: Time from application to allocation
+- **Storage Success Rate**: Percentage of allocated DataCap successfully stored
+- **Geographic Distribution**: Diversity of storage provider locations
+- **Data Redundancy**: Average number of replicas maintained
+- **Retrieval Performance**: Success rate and speed of data retrievals
+- **Client Compliance**: Adherence to allocation guidelines and SP distribution requirements
+- **Network Growth Contribution**: Total data onboarded to Filecoin network
+- **Application Processing Time**: Average review and approval duration
+
+## Application Process
+
+Applications are managed through GitHub issues using the LDN (Large Dataset Notary) template, which captures:
+- Client information and verification
+- Project details and data descriptions
+- DataCap requirements and distribution plans
+- Storage provider commitments
+- Compliance confirmations
+
+Each approved application is tracked through JSON files in the `/applications` directory, providing full transparency of the allocation lifecycle.
 
 ## Code of Conduct
 
